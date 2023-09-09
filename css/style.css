@@ -17,7 +17,10 @@
 }
 .menu-navegacion h1{
     font-size: 2em;
+    text-align: center;
+    padding: 17px;
 }
+
 .menulist{
     display: flex;
     width: 400px;
@@ -33,10 +36,17 @@
 }
 
 .form{
-    background-color: #c6c6c9;
+    background-color: #BBBAC6;
+    padding: 15px;
 }
 .form h2{
     font-size: 1.5em;
+    padding: 6px;
+}
+.field{
+    border: solid 1px #ccc;
+    border-radius: 3px;
+
 }
 
 /* Titulo Main H2*/

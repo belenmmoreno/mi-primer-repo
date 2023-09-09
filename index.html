@@ -24,15 +24,10 @@
 <body>
 
     <header class="menu-navegacion">
-        <h1> Encontrá eso que buscas </h1>
-
+      <h1> Encontrá eso que buscas </h1>
         <div>
             <nav class="navbar navbar-expand-lg nav-color">
                 <div class="container-fluid">
-                  <a class="navbar-brand" href="#">Navbar</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                       <li class="nav-item">
@@ -56,37 +51,26 @@
                      
                     </ul>
                     <form class="d-flex" role="search">
-                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                      <button class="btn btn-outline-success" type="submit">Search</button>
+                      <input class="form-control me-2" type="buscar" placeholder="Buscar" aria-label="Buscar">
+                      <button class="btn btn-dark" type="submit">Buscar</button>
                     </form>
                   </div>
                 </div>
               </nav>
         </div>
 
-
-        <!-- 
-        <nav>
-            <ul class="menulist">
-                <li><a href="./index.html"> Vuelos </a></li>
-                <li><a href="./pages/alojamientos.html"> Alojamientos </a></li>
-                <li><a href="./pages/paquetes.html"> Paquetes </a></li>
-                <li><a href="./pages/actividades.html"> Actividades </a></li>
-                <li><a href="./pages/autos.html"> Autos </a></li>
-            </ul>
-        </nav>-->
         
         <div class="form">
-        <h2> Vuelos </h2>
+          <h2> Vuelos </h2>
             <form action="form.php" method="post">
                 <label for="name"> Origen: </label>
-                <input type="text" id="name" name="name">
+                <input type="text" id="name" name="name" class="field">
                 <label for="name"> Destino: </label>
-                <input type="text" id="name" name="name">
+                <input type="text" id="name" name="name" class="field">
                 <label for="start"> Ida </label>
-                <input type="date" id="start" name="trip-start" value="2023-08-13" min="2023-01-01" max="2023-12-01">
+                <input type="date" id="start" name="trip-start" value="2023-08-13" min="2023-01-01" max="2023-12-01" class="field">
                 <label for="start"> Vuelta </label>
-                <input type="date" id="start" name="trip-start" value="2023-08-13" min="2023-01-01" max="2023-12-01">
+                <input type="date" id="start" name="trip-start" value="2023-08-13" min="2023-01-01" max="2023-12-01" class="field">
                 <label for=""> Personas:</label>
                 <select name="" id="">
                 <option value=""> 1 </option>
@@ -94,7 +78,7 @@
                 <option value=""> 3 </option>
                 <option value=""> 4 </option>
                 </select>
-                <input type="submit" value="Enviar">  
+                <input type="submit" value="Enviar" class="field">  
             </form>
         </div>
         
