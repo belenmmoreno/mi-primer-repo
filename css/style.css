@@ -1,0 +1,93 @@
+/* RESET */
+
+*{ 
+    font-family:'Lora', serif; ;
+    font-size: 16px;
+}
+
+/*nav botstrap*/
+.nav-color{
+    background-color: #BBBAC6;
+}
+/* Menu navegación (Header)*/
+.menu-navegacion{
+    justify-content: center;
+    align-items: center;
+    background-color: #BBBAC6; 
+}
+.menu-navegacion h1{
+    font-size: 2em;
+}
+.menulist{
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+    
+}
+.menulist li{
+    list-style: none;
+}
+.menulist li a{
+    text-decoration: none;
+    color: black;
+}
+
+.form{
+    background-color: #c6c6c9;
+}
+.form h2{
+    font-size: 1.5em;
+}
+
+/* Titulo Main H2*/
+.main h2{
+    font-size: 1.50em;
+    position: relative;
+    top: 60%;
+}
+.card-ofertas{
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+    padding-right: 60px;
+ }
+
+/*(ofertas destacadas;destinos tendencia;nuestra selecci´n de paquetes;
+divertite a lo grande)*/
+.card{
+    width: 400px;
+    background-color: #e2f7f0;
+    overflow: hidden;
+}
+.card img{
+    width: 100%;
+}
+.card p{
+    font-size: 1em;
+}
+
+/* Card para alquiler de autos */
+.card-autos{
+    width: 400px;
+    background-color: #b2f0dc;
+}
+.card-autos img{
+    width: 100%;
+}
+.card-autos p{
+    font-size: 1em;
+}
+/* Footer */
+
+.footer{
+    width: 100%;
+    background-color: #bbf3d3 ;
+    
+}
+.footer a{
+    font-size: 0.80em;
+}
+.footer p{
+    font-size: 0.50em ;
+}
+

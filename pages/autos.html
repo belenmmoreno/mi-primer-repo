@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <!-- Css -->
+    <link rel="stylesheet" href="../css/style.css">
+
+
+    <title> Mi página de viajes - Autos </title>
+
+
+</head>
+<body>
+
+    <header class="menu-navegacion">
+        <h1> Encontrá eso que buscas </h1>
+
+        <div>
+            <nav class="navbar navbar-expand-lg nav-color">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Navbar</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./pages/vuelos.html">Vuelos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./pages/alojamientos.html">Alojamientos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./pages/paquetes.html">Paquetes</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./pages/actividades.html">Actividades</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./pages/autos.html">Autos</a>
+                      </li>
+                     
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+        </div>
+
+        <h2> Autos </h2>
+        <form action="form.php" method="post">
+            <input type="text" id="name" name="name" placeholder="ingresar una ciudad o aeropuerto">
+            <label for="start"> Retiro </label>
+            <input type="date" id="start" name="trip-start" value="2023-08-13" min="2023-01-01" max="2023-12-01">
+            <select name="" id="">
+                <option value=""> 11:00hs </option>
+                <option value=""> 12:00hs </option>
+                <option value=""> 13:00hs </option>
+            </select>
+            <label for="start"> Devolución </label>
+            <input type="date" id="start" name="trip-start" value="2023-08-13" min="2023-01-01" max="2023-12-01">
+            <select name="" id="">
+                <option value=""> 11:00hs </option>
+                <option value=""> 12:00hs </option>
+                <option value=""> 13:00hs </option>
+            </select>
+            <input type="submit" value="Enviar">  
+        </form>
+
+    </header>
+
+    <main class="main">
+        <h2> Empresas populares de autos </h2>
+        <section class="card-ofertas">
+            <article class="card-autos">
+                <h3> Hertz </h3>
+                <img src="../assets/hertz.png" alt=" Hertz ">
+            </article>
+            <article class="card-autos">
+                <h3> Alamo </h3>
+                <img src="../assets/alamo.png" alt=" Alamo ">
+            </article>
+            <article class="card-autos">
+                <h3> Rentacard </h3>
+                <img src="../assets/rentacard.png" alt="">
+            </article>
+        </section>
+
+
+
+    </main>
+
+    <footer class="footer">
+        <div>
+            <h3> Links </h3>
+            <a href="#">Vuelos</a>
+            <a href="#">Alojamientos</a>
+            <a href="#">Paquetes</a>
+            <a href="#">Actividades</a>
+            <a href="#">Autos</a>
+         </div>
+
+         <div>
+            <h3> Redes </h3>
+            <a href="https://www.despegar.com.ar/"> Despegar </a>
+            <a href="https://www.booking.com/"> Booking </a>
+         </div>
+
+         <div>
+            <p>&copy;2023 Agencia de Viajes. Todos los derechos reservados.</p>
+         </div>
+
+
+    </footer>
+    
+    <!-- scrip bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+</body>
+</html>
