@@ -26,6 +26,10 @@
         <div>
             <nav class="navbar navbar-expand-lg nav-color">
                 <div class="container-fluid">
+                  <a class="navbar-brand navbar-fontsize" href="#">Ahítu!</a>
+                  <button class="navbar-toggler border-class" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                       <li class="nav-item">
@@ -49,83 +53,103 @@
                      
                     </ul>
                     <form class="d-flex" role="search">
-                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                      <button class="btn btn-outline-success" type="submit">Search</button>
+                      <input class="form-control me-2" type="buscar" placeholder="Buscar" aria-label="Buscar">
+                      <button class="btn btn-dark" type="submit">Buscar</button>
                     </form>
                   </div>
                 </div>
               </nav>
         </div>
-        <h2> Paquetes </h2>
-        <form action="form.php" method="post">
-            <label for="name"> Origen: </label>
-            <input type="text" id="name" name="name">
-            <label for="name"> Destino: </label>
-            <input type="text" id="name" name="name">
-            <label for="start"> Ida </label>
-            <input type="date" id="start" name="trip-start" value="2023-08-13" min="2023-01-01" max="2023-12-01">
-            <label for="start"> Vuelta </label>
-            <input type="date" id="start" name="trip-start" value="2023-08-13" min="2023-01-01" max="2023-12-01">
-            <label for=""> Personas:</label>
-            <select name="" id="">
-                <option value=""> 1 </option>
-                <option value=""> 2 </option>
-                <option value=""> 3 </option>
-                <option value=""> 4 </option>
-            </select>
-            <input type="submit" value="Enviar">  
-        </form>
-
+        <h2 class="form-texto"> Paquetes </h2>
+          <div class="form">
+            <form action="form.php" method="post" class="row row-cols-lg-auto g-3 align-items-center">
+              <label for="name"> Origen: </label>
+              <input type="text" id="name" name="name" class="field">
+              <label for="name"> Destino: </label>
+              <input type="text" id="name" name="name" class="field">
+              <label for="start"> Ida </label>
+              <input type="date" id="start" name="trip-start" value="2023-08-13" min="2023-01-01" max="2023-12-01" class="field">
+              <label for="start"> Vuelta </label>
+              <input type="date" id="start" name="trip-start" value="2023-08-13" min="2023-01-01" max="2023-12-01" class="field">
+              <label for=""> Personas:</label>
+              <select name="" id="" class="field">
+              <option value=""> 1 </option>
+              <option value=""> 2 </option>
+              <option value=""> 3 </option>
+              <option value=""> 4 </option>
+              </select>
+              <input type="submit" value="Enviar" class="form-boton">  
+            </form>
+          </div>
 
     </header>
 
-    <main class="main">
-        <h2> Nuestra selección de paquetes </h2>
-        <section class="card-ofertas">
-            <article class="card">
-                <h3> Paquetes a Disney </h3>
-                <img src="../assets/disney.jpg.jpg" alt=" Disney ">
-                <p>¡Haz realidad los sueños de toda la familia en un emocionante viaje a Disney! Sumérgete en la magia de los parques temáticos, conoce a tus personajes favoritos, y maravíllate con los espectáculos
-                     y fuegos artificiales deslumbrantes. Disfruta de días llenos de diversión y alegría en el lugar donde los sueños se hacen realidad. ¡Reserva ahora y vive la aventura Disney al máximo! </p>
-            </article>
-            <article class="card">
-                <h3> Paquetes a Cancún </h3>
-                <img src="../assets/cancun.jpg.jpg" alt="">
-                <p>Relájate en las playas paradisíacas de Cancún, donde el sol, la arena y el mar turquesa te esperan. Disfruta de complejos turísticos de lujo, actividades acuáticas emocionantes y una vida nocturna vibrante.
-                     Explora los sitios arqueológicos mayas cercanos o simplemente relájate en la playa con una bebida refrescante. ¡Escapa a la belleza tropical de Cancún y recarga tus energías!</p>
-            </article>
-            <article class="card">
-                <h3> Paquetes a Colombia </h3>
-                <img src="../assets/colombia.jpg.jpg" alt="">
-                <p>Descubre la riqueza cultural y natural de Colombia en un viaje lleno de aventuras. Desde las vibrantes calles de Bogotá hasta la mágica ciudad amurallada de Cartagena, cada rincón tiene algo especial que ofrecer. Explora la belleza de la selva en el Amazonas o maravíllate con los paisajes montañosos de la región cafetera.
-                     Colombia te espera con su diversidad única. ¡Reserva tu viaje y vive una experiencia inolvidable en este país lleno de contrastes! </p>
-            </article>
+    <main>
+      <h2 class="card-title"> Nuestra selección de paquetes </h2>
+        <section class="container">
+            <div class="card">
+                <h3 class="card-sub"> Paquetes a Disney </h3>
+                <img class="img-fluid" src="../assets/disney-1200.webp" alt=" disney ">
+                <p> Sumérgete en aguas cristalinas y arena dorada en nuestras playas exóticas. Ya sea que estés buscando relajarte bajo el sol o explorar la vida marina,
+                     tenemos el destino perfecto para ti. Disfruta de actividades acuáticas emocionantes, deliciosa gastronomía local y alojamientos de primera clase. 
+                     ¡Escapa a un paraíso tropical hoy mismo!</p>
+             </div>
+             <div class="card">
+                <h3 class="card-sub"> Paquetes a Cancún </h3>
+                <img class="img-fluid" src="../assets/cancun-1200.webp" alt=" cartel cancun">
+                <p> ¿Eres amante de la naturaleza y la aventura? Descubre emocionantes senderos, majestuosas montañas y paisajes que te dejarán sin aliento. Explora parques nacionales,
+                     realiza caminatas épicas y captura vistas panorámicas que te conectarán con el mundo natural. Tu próxima gran aventura te espera en lo más profundo de la naturaleza.</p>
+             </div>       
+             <div class="card">
+                <h3 class="card-sub"> Paquetes a Colombia </h3>
+                <img class="img-fluid" src="../assets/cartagena-1200.jpg" alt=" cartagena-colombia ">
+                <p> Celebra el amor en destinos románticos hechos para parejas. Desde encantadoras calles empedradas hasta cenas bajo las estrellas,
+                     nuestras ofertas de escapadas románticas te brindarán momentos especiales con esa persona especial. Vive experiencias inolvidables mientras
+                      creas recuerdos que perdurarán toda la vida. ¡Reaviva la chispa con una escapada romántica!</p>
+             </div>
         </section>
-
-
+    
     </main>
 
-    <footer class="footer">
-        <div>
-            <h3> Links </h3>
-            <a href="#">Vuelos</a>
-            <a href="#">Alojamientos</a>
-            <a href="#">Paquetes</a>
-            <a href="#">Actividades</a>
-            <a href="#">Autos</a>
-         </div>
+    <footer>
+      <div class="container-fluid">
+        <div class="row p-5 text-black">
+          <div class="col">
+            <p class="h2"> Ahítu! </p>
+          </div>
+          <div class="col">
+            <p class="h4 mb-3"> Links </p>
+            <div class="mb-2">
+              <a class="text-secondary text-decoration-none" href="#">Vuelos</a>
+            </div>
+            <div class="mb-2">
+              <a class="text-secondary text-decoration-none" href="#">Alojamientos</a>
+            </div>
+            <div class="mb-2">
+              <a class="text-secondary text-decoration-none" href="#">Paquetes</a>
+            </div>
+            <div class="mb-2">
+              <a class="text-secondary text-decoration-none" href="#">Actividades</a>
+            </div>
+            <div class="mb-2">
+              <a class="text-secondary text-decoration-none" href="#">Autos</a>
+            </div>
+          </div>
+          <div class="col">
+            <p class="h4 mb-3"> Redes </p>
+            <div class="mb-2">
+              <a class="text-secondary text-decoration-none" href="https://www.despegar.com.ar/"> Despegar</a>
+            </div>
+            <div class="mb-2">
+              <a class="text-secondary text-decoration-none" href="https://www.booking.com/"> Booking </a>
+            </div>
+          </div>
+          <div class="col-xs-12 pt-5">
+            <p class="text-center"> &copy;2023 Agencia de Viajes. Todos los derechos reservados.</p>
 
-         <div>
-            <h3> Redes </h3>
-            <a href="https://www.despegar.com.ar/"> Despegar </a>
-            <a href="https://www.booking.com/"> Booking </a>
-         </div>
-
-         <div>
-            <p>&copy;2023 Agencia de Viajes. Todos los derechos reservados.</p>
-         </div>
-
-
+          </div>
+        </div>
+      </div>
     </footer>
     
     <!-- scrip bootstrap -->

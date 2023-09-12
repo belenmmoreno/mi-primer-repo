@@ -28,6 +28,10 @@
         <div>
             <nav class="navbar navbar-expand-lg nav-color">
                 <div class="container-fluid">
+                  <a class="navbar-brand navbar-fontsize" href="#">Ahítu!</a>
+                  <button class="navbar-toggler border-class" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                       <li class="nav-item">
@@ -60,9 +64,9 @@
         </div>
 
         
-        <div class="form">
-          <h2> Vuelos </h2>
-            <form action="form.php" method="post">
+        <h2 class="form-texto"> Vuelos </h2>
+          <div class="form">
+            <form action="form.php" method="post" class="row row-cols-lg-auto g-3 align-items-center">
                 <label for="name"> Origen: </label>
                 <input type="text" id="name" name="name" class="field">
                 <label for="name"> Destino: </label>
@@ -72,74 +76,95 @@
                 <label for="start"> Vuelta </label>
                 <input type="date" id="start" name="trip-start" value="2023-08-13" min="2023-01-01" max="2023-12-01" class="field">
                 <label for=""> Personas:</label>
-                <select name="" id="">
+                <select name="" id="" class="field">
                 <option value=""> 1 </option>
                 <option value=""> 2 </option>
                 <option value=""> 3 </option>
                 <option value=""> 4 </option>
                 </select>
-                <input type="submit" value="Enviar" class="field">  
+                <input type="submit" value="Enviar" class="form-boton">  
             </form>
-        </div>
+          </div>
         
     </header>
 
-    <main class="main">
-        <h2> Ofertas destacadas </h2>
-        <section class="card-ofertas">
-            <article class="card">
-                <h3> Playas Exóticas </h3>
-                <img src="./assets/playa-tropical (1).jpg" alt=" Playa exótica ">
+    <main>
+      <h2 class="card-title"> Ofertas destacadas </h2>
+        <section class="container">
+            <div class="card">
+                <h3 class="card-sub"> Playas Exóticas </h3>
+                <img class="img-fluid" src="./assets/playas-exoticas-1200.jpeg" alt="playa exótica">
                 <p> Sumérgete en aguas cristalinas y arena dorada en nuestras playas exóticas. Ya sea que estés buscando relajarte bajo el sol o explorar la vida marina,
                      tenemos el destino perfecto para ti. Disfruta de actividades acuáticas emocionantes, deliciosa gastronomía local y alojamientos de primera clase. 
                      ¡Escapa a un paraíso tropical hoy mismo!</p>
-            </article>
-            <article class="card">
-                <h3> Aventuras en la Naturaleza </h3>
-                <img src="./assets/mujer-mirando-mapa-atras.jpg" alt=" Mujer mirando mapa ">
+             </div>
+             <div class="card">
+                <h3 class="card-sub"> Aventuras en la Naturaleza </h3>
+                <img class="img-fluid" src="./assets/aventura-naturaleza-1200.jpg" alt="mujer en la montaña">
                 <p> ¿Eres amante de la naturaleza y la aventura? Descubre emocionantes senderos, majestuosas montañas y paisajes que te dejarán sin aliento. Explora parques nacionales,
                      realiza caminatas épicas y captura vistas panorámicas que te conectarán con el mundo natural. Tu próxima gran aventura te espera en lo más profundo de la naturaleza.</p>
-            </article>
-            <article class="card">
-                <h3> Escapada Romántica </h3>
-                <img src="./assets/pareja-tiro-medio-equipaje.jpg" alt=" Pareja de la mano ">
+             </div>       
+             <div class="card">
+                <h3 class="card-sub"> Escapada Romántica </h3>
+                <img class="img-fluid" src="./assets/escapada-romantica-playa-1200.webp" alt="pareja en la playa">
                 <p> Celebra el amor en destinos románticos hechos para parejas. Desde encantadoras calles empedradas hasta cenas bajo las estrellas,
                      nuestras ofertas de escapadas románticas te brindarán momentos especiales con esa persona especial. Vive experiencias inolvidables mientras
                       creas recuerdos que perdurarán toda la vida. ¡Reaviva la chispa con una escapada romántica!</p>
-            </article>
+             </div>
+            
         </section>
 
-        <h2> Destinos tendencia </h2>
+        <h2 class="card-title"> Destinos tendencia </h2>
         <section>
-            <article class="card">
-                <h3> Roma </h3>
+            <article class="container">
+              <div class="ratio ratio-16x9">
                 <video src="./assets/roma.mov" controls width="350px" height="250px"></video>
+              </div>  
             </article>
         </section>
 
         
     </main>
 
-    <footer class="footer">
-        <div>
-            <h3> Links </h3>
-            <a href="#">Vuelos</a>
-            <a href="#">Alojamientos</a>
-            <a href="#">Paquetes</a>
-            <a href="#">Actividades</a>
-            <a href="#">Autos</a>
-         </div>
+    <footer>
+      <div class="container-fluid">
+        <div class="row p-5 text-black">
+          <div class="col">
+            <p class="h2"> Ahítu! </p>
+          </div>
+          <div class="col">
+            <p class="h4 mb-3"> Links </p>
+            <div class="mb-2">
+              <a class="text-secondary text-decoration-none" href="#">Vuelos</a>
+            </div>
+            <div class="mb-2">
+              <a class="text-secondary text-decoration-none" href="#">Alojamientos</a>
+            </div>
+            <div class="mb-2">
+              <a class="text-secondary text-decoration-none" href="#">Paquetes</a>
+            </div>
+            <div class="mb-2">
+              <a class="text-secondary text-decoration-none" href="#">Actividades</a>
+            </div>
+            <div class="mb-2">
+              <a class="text-secondary text-decoration-none" href="#">Autos</a>
+            </div>
+          </div>
+          <div class="col">
+            <p class="h4 mb-3"> Redes </p>
+            <div class="mb-2">
+              <a class="text-secondary text-decoration-none" href="https://www.despegar.com.ar/"> Despegar</a>
+            </div>
+            <div class="mb-2">
+              <a class="text-secondary text-decoration-none" href="https://www.booking.com/"> Booking </a>
+            </div>
+          </div>
+          <div class="col-xs-12 pt-5">
+            <p class="text-center"> &copy;2023 Agencia de Viajes. Todos los derechos reservados.</p>
 
-         <div>
-            <h3> Redes </h3>
-            <a href="https://www.despegar.com.ar/"> Despegar </a>
-            <a href="https://www.booking.com/"> Booking </a>
-         </div>
-
-         <div>
-            <p>&copy;2023 Agencia de Viajes. Todos los derechos reservados.</p>
-         </div>
-    
+          </div>
+        </div>
+      </div>
     </footer>
     
     <!-- scrip bootstrap -->

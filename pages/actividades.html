@@ -28,6 +28,10 @@
         <div>
             <nav class="navbar navbar-expand-lg nav-color">
                 <div class="container-fluid">
+                  <a class="navbar-brand navbar-fontsize" href="#">Ahítu!</a>
+                  <button class="navbar-toggler border-class" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                       <li class="nav-item">
@@ -51,72 +55,93 @@
                      
                     </ul>
                     <form class="d-flex" role="search">
-                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                      <button class="btn btn-outline-success" type="submit">Search</button>
+                      <input class="form-control me-2" type="buscar" placeholder="Buscar" aria-label="Buscar">
+                      <button class="btn btn-dark" type="submit">Buscar</button>
                     </form>
                   </div>
                 </div>
               </nav>
         </div>
-        <h2> Actividades </h2>
-        <form action="form.php" method="post">
-            <input type="text" id="name" name="name" placeholder="ingresar una ciudad o punto de interés">
+        <h2 class="form-texto"> Actividades </h2>
+          <div class="form">
+            <form action="form.php" method="post" class="row row-cols-lg-auto g-3 align-items-center">
+            <input type="text" id="name" name="name" placeholder="ingresar una ciudad o punto de interés" class="field">
             <label for="start"> Ida </label>
-            <input type="date" id="start" name="trip-start" value="2023-08-13" min="2023-01-01" max="2023-12-01">
+            <input type="date" id="start" name="trip-start" value="2023-08-13" min="2023-01-01" max="2023-12-01" class="field">
             <label for="start"> Vuelta </label>
-            <input type="date" id="start" name="trip-start" value="2023-08-13" min="2023-01-01" max="2023-12-01">
-            <input type="submit" value="Enviar">  
-        </form>
-
+            <input type="date" id="start" name="trip-start" value="2023-08-13" min="2023-01-01" max="2023-12-01" class="field">
+            <input type="submit" value="Enviar" class="form-boton">  
+            </form>
+          </div>
     </header>
 
-    <main class="main">
-        <h2> Divertite a lo grande </h2>
-        <section class="card-ofertas">
-            <article class="card">
-                <h3> Parapente </h3>
-                <img src="../assets/parapente.jpg.jpg" alt=" parapente">
+    <main>
+      
+
+      <h2 class="card-title"> Divertite a lo grande </h2>
+        <section class="container">
+             <div class="card">
+                <h3 class="card-sub"> Parapente </h3>
+                <img src="../assets/vuelo-parapente-paisaje-1200.webp" class="img-fluid" alt=" parapente">
                 <p>Siente la emoción de volar como un ave mientras te elevas en el cielo con el parapente. Deslízate sobre paisajes impresionantes y siente la brisa en tu rostro mientras 
                     admiras vistas panorámicas que quitan el aliento. Experimenta la adrenalina y la serenidad al mismo tiempo en un vuelo único que te conectará con la naturaleza desde una perspectiva completamente nueva.</p>
-            </article>
-            <article class="card">
-                <h3> Trekking </h3>
-                <img src="../assets/trekking.jpg.jpg" alt=" personas haciendo trekking">
+              </div>
+             <div class="card">
+                <h3 class="card-sub"> Trekking </h3>
+                <img src="../assets/trekking-1200.jpg" class="img-fluid" alt=" personas haciendo trekking">
                 <p>Embárcate en una aventura a pie a través de paisajes naturales impresionantes mientras practicas el trekking. Desde senderos montañosos hasta selvas exuberantes y desiertos vastos, cada paso te acerca a la esencia de la tierra. Siente la satisfacción
                      de conquistar terrenos desafiantes y descubre vistas panorámicas que recompensan tus esfuerzos. El trekking te invita a explorar la belleza de la naturaleza a tu propio ritmo. ¡Ponte tus botas y comienza una travesía épica a pie! </p>
-            </article>
-            <article class="card">
-                <h3> Buceo </h3>
-                <img src="../assets/buceo.jpg.jpg" alt=" personas buceando ">
+             </div>
+             <div class="card">
+                <h3 class="card-sub"> Buceo </h3>
+                <img src="../assets/buceo-tortuga-1200.jpg" class="img-fluid" alt=" personas buceando ">
                 <p>Sumérgete en un mundo mágico bajo las aguas cristalinas y descubre el reino submarino en una experiencia de buceo inolvidable. Explora arrecifes de coral coloridos, nada junto a peces exóticos y maravíllate con la vida marina en su hábitat natural. La sensación de flotar en el agua y 
                     ser testigo de la belleza submarina te dejará sin palabras. Prepárate para un viaje bajo el mar que despierta todos tus sentidos. </p>
-            </article>
+             </div>
         </section>
 
 
     </main>
 
-    <footer class="footer">
-        <div>
-            <h3> Links </h3>
-            <a href="#">Vuelos</a>
-            <a href="#">Alojamientos</a>
-            <a href="#">Paquetes</a>
-            <a href="#">Actividades</a>
-            <a href="#">Autos</a>
-         </div>
+    <footer>
+      <div class="container-fluid">
+        <div class="row p-5 text-black">
+          <div class="col">
+            <p class="h2"> Ahítu! </p>
+          </div>
+          <div class="col">
+            <p class="h4 mb-3"> Links </p>
+            <div class="mb-2">
+              <a class="text-secondary text-decoration-none" href="#">Vuelos</a>
+            </div>
+            <div class="mb-2">
+              <a class="text-secondary text-decoration-none" href="#">Alojamientos</a>
+            </div>
+            <div class="mb-2">
+              <a class="text-secondary text-decoration-none" href="#">Paquetes</a>
+            </div>
+            <div class="mb-2">
+              <a class="text-secondary text-decoration-none" href="#">Actividades</a>
+            </div>
+            <div class="mb-2">
+              <a class="text-secondary text-decoration-none" href="#">Autos</a>
+            </div>
+          </div>
+          <div class="col">
+            <p class="h4 mb-3"> Redes </p>
+            <div class="mb-2">
+              <a class="text-secondary text-decoration-none" href="https://www.despegar.com.ar/"> Despegar</a>
+            </div>
+            <div class="mb-2">
+              <a class="text-secondary text-decoration-none" href="https://www.booking.com/"> Booking </a>
+            </div>
+          </div>
+          <div class="col-xs-12 pt-5">
+            <p class="text-center"> &copy;2023 Agencia de Viajes. Todos los derechos reservados.</p>
 
-         <div>
-            <h3> Redes </h3>
-            <a href="https://www.despegar.com.ar/"> Despegar </a>
-            <a href="https://www.booking.com/"> Booking </a>
-         </div>
-
-         <div>
-            <p>&copy;2023 Agencia de Viajes. Todos los derechos reservados.</p>
-         </div>
-
-
+          </div>
+        </div>
+      </div>
     </footer>
     
     <!-- scrip bootstrap -->

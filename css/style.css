@@ -9,6 +9,12 @@
 .nav-color{
     background-color: #BBBAC6;
 }
+.navbar-fontsize{
+    font-size: 2em;
+    font-weight: 500;
+}
+
+
 /* Menu navegación (Header)*/
 .menu-navegacion{
     justify-content: center;
@@ -16,28 +22,27 @@
     background-color: #BBBAC6; 
 }
 .menu-navegacion h1{
-    font-size: 2em;
+    font-size: 1.70em;
     text-align: center;
-    padding: 17px;
+    padding-top: 15px;
 }
+.border-class{
+    border: none;
+}
+.form-texto{
+    font-size: 1.50em;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 10px;
 
-.menulist{
-    display: flex;
-    width: 400px;
-    justify-content: space-around;
-    
 }
-.menulist li{
-    list-style: none;
-}
-.menulist li a{
-    text-decoration: none;
-    color: black;
-}
-
 .form{
     background-color: #BBBAC6;
-    padding: 15px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    display: flex;
+    
 }
 .form h2{
     font-size: 1.5em;
@@ -48,56 +53,36 @@
     border-radius: 3px;
 
 }
-
-/* Titulo Main H2*/
-.main h2{
-    font-size: 1.50em;
-    position: relative;
-    top: 60%;
+.form-boton{
+    border: none;
+    border-radius: 3px;
+    background-color: black;
+    color: white;
 }
-.card-ofertas{
+
+/* Main */
+.card-title{
+    font-size: 1.5em;
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+}
+.card-sub{
+    font-size: 1.2em ;
+    text-align: center;
+}
+.container{
     display: flex;
-    align-items: center;
-    padding-left: 60px;
-    padding-right: 60px;
- }
-
-/*(ofertas destacadas;destinos tendencia;nuestra selecci´n de paquetes;
-divertite a lo grande)*/
-.card{
-    width: 400px;
-    background-color: #e2f7f0;
-    overflow: hidden;
 }
+
 .card img{
     width: 100%;
-}
-.card p{
-    font-size: 1em;
+    height: 100%;
 }
 
-/* Card para alquiler de autos */
-.card-autos{
-    width: 400px;
-    background-color: #b2f0dc;
-}
-.card-autos img{
-    width: 100%;
-}
-.card-autos p{
-    font-size: 1em;
-}
-/* Footer */
 
-.footer{
-    width: 100%;
-    background-color: #bbf3d3 ;
-    
-}
-.footer a{
-    font-size: 0.80em;
-}
-.footer p{
-    font-size: 0.50em ;
-}
+
+
 
