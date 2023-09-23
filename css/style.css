@@ -16,13 +16,13 @@
 
 
 /* Menu navegación (Header)*/
-.menu-navegacion{
+.header{
     justify-content: center;
     align-items: center;
     background-color: #BBBAC6; 
 }
-.menu-navegacion h1{
-    font-size: 1.70em;
+.header h1{
+    font-size: 1.80em;
     text-align: center;
     padding-top: 15px;
 }
@@ -61,12 +61,16 @@
 }
 
 /* Main */
-.card-title{
+.h2__title{
     font-size: 1.5em;
     text-align: center;
     padding-left: 20px;
     padding-top: 10px;
     padding-bottom: 20px;
+
+}
+.card{
+    margin: 10px;
 
 }
 .card-sub{
