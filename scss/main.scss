@@ -1,0 +1,14 @@
+// lista de import
+
+//primero las variables /mixins/grid
+@import './variables';
+@import './reset';
+@import './mixins';
+
+//layout- componentes: header / main / footer
+@import './nav';
+@import './header';
+@import './form';
+@import './card';
+
+//media queries
