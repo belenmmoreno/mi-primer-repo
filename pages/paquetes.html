@@ -24,140 +24,140 @@
 
 </head>
 <body>
-    <header class="menu-navegacion">
-        <h1 class="animate__animated animate__bounce"> Encontrá eso que buscas </h1>
+  <header class="header">
+      <h1> Encontrá eso que buscas </h1>
 
-        <div>
-            <nav class="navbar navbar-expand-lg nav-color">
-                <div class="container-fluid">
-                  <a class="navbar-brand navbar-fontsize" href="#">Ahítu!</a>
-                  <button class="navbar-toggler border-class" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="../pages/vuelos.html">Vuelos</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="../pages/alojamientos.html">Alojamientos</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="../pages/paquetes.html">Paquetes</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="../pages/actividades.html">Actividades</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="../pages/autos.html">Autos</a>
-                      </li>
-                     
-                    </ul>
-                    <form class="d-flex" role="search">
-                      <input class="form-control me-2" type="buscar" placeholder="Buscar" aria-label="Buscar">
-                      <button class="btn btn-dark" type="submit">Buscar</button>
-                    </form>
-                  </div>
+      <div>
+          <nav class="navbar navbar-expand-lg nav-color">
+              <div class="container-fluid">
+                <a class="navbar-brand navbar-fontsize" href="#">Ahítu!</a>
+                <button class="navbar-toggler border-class" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../pages/vuelos.html">Vuelos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../pages/alojamientos.html">Alojamientos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../pages/paquetes.html">Paquetes</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../pages/actividades.html">Actividades</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../pages/autos.html">Autos</a>
+                    </li>
+                   
+                  </ul>
+                  <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="buscar" placeholder="Buscar" aria-label="Buscar">
+                    <button class="btn btn-dark" type="submit">Buscar</button>
+                  </form>
                 </div>
-              </nav>
+              </div>
+            </nav>
+      </div>
+      <h2 class="form-texto"> Paquetes </h2>
+        <div class="form row row-cols-lg-auto g-3 align-items-center">
+          <form action="form.php" method="post" class="row row-cols-lg-auto g-3 align-items-center">
+            <label for="name"> Origen: </label>
+            <input type="text" id="name" name="name" class="field">
+            <label for="name"> Destino: </label>
+            <input type="text" id="name" name="name" class="field">
+            <label for="start"> Ida </label>
+            <input type="date" id="start" name="trip-start" value="2023-08-13" min="2023-01-01" max="2023-12-01" class="field">
+            <label for="start"> Vuelta </label>
+            <input type="date" id="start" name="trip-start" value="2023-08-13" min="2023-01-01" max="2023-12-01" class="field">
+            <label for=""> Personas:</label>
+            <select name="" id="" class="field">
+            <option value=""> 1 </option>
+            <option value=""> 2 </option>
+            <option value=""> 3 </option>
+            <option value=""> 4 </option>
+            </select>
+            <input type="submit" value="Enviar" class="form-boton">  
+          </form>
         </div>
-        <h2 class="form-texto"> Paquetes </h2>
-          <div class="form row row-cols-lg-auto g-3 align-items-center">
-            <form action="form.php" method="post" class="row row-cols-lg-auto g-3 align-items-center">
-              <label for="name"> Origen: </label>
-              <input type="text" id="name" name="name" class="field">
-              <label for="name"> Destino: </label>
-              <input type="text" id="name" name="name" class="field">
-              <label for="start"> Ida </label>
-              <input type="date" id="start" name="trip-start" value="2023-08-13" min="2023-01-01" max="2023-12-01" class="field">
-              <label for="start"> Vuelta </label>
-              <input type="date" id="start" name="trip-start" value="2023-08-13" min="2023-01-01" max="2023-12-01" class="field">
-              <label for=""> Personas:</label>
-              <select name="" id="" class="field">
-              <option value=""> 1 </option>
-              <option value=""> 2 </option>
-              <option value=""> 3 </option>
-              <option value=""> 4 </option>
-              </select>
-              <input type="submit" value="Enviar" class="form-boton">  
-            </form>
-          </div>
 
-    </header>
+  </header>
 
-    <main>
-      <h2 class="card-title"> Nuestra selección de paquetes </h2>
-        <section class="container">
-            <div class="card">
-                <h3 class="card-sub"> Paquetes a Disney </h3>
-                <img class="img-fluid" src="../assets/disney-1200.webp" alt=" disney ">
-                <p> Sumérgete en aguas cristalinas y arena dorada en nuestras playas exóticas. Ya sea que estés buscando relajarte bajo el sol o explorar la vida marina,
-                     tenemos el destino perfecto para ti. Disfruta de actividades acuáticas emocionantes, deliciosa gastronomía local y alojamientos de primera clase. 
-                     ¡Escapa a un paraíso tropical hoy mismo!</p>
-             </div>
-             <div class="card">
-                <h3 class="card-sub"> Paquetes a Cancún </h3>
-                <img class="img-fluid" src="../assets/cancun-1200.webp" alt=" cartel cancun">
-                <p> ¿Eres amante de la naturaleza y la aventura? Descubre emocionantes senderos, majestuosas montañas y paisajes que te dejarán sin aliento. Explora parques nacionales,
-                     realiza caminatas épicas y captura vistas panorámicas que te conectarán con el mundo natural. Tu próxima gran aventura te espera en lo más profundo de la naturaleza.</p>
-             </div>       
-             <div class="card">
-                <h3 class="card-sub"> Paquetes a Colombia </h3>
-                <img class="img-fluid" src="../assets/cartagena-1200.jpg" alt=" cartagena-colombia ">
-                <p> Celebra el amor en destinos románticos hechos para parejas. Desde encantadoras calles empedradas hasta cenas bajo las estrellas,
-                     nuestras ofertas de escapadas románticas te brindarán momentos especiales con esa persona especial. Vive experiencias inolvidables mientras
-                      creas recuerdos que perdurarán toda la vida. ¡Reaviva la chispa con una escapada romántica!</p>
-             </div>
-        </section>
-    
-    </main>
+  <main>
+    <h2 class="h2__subtitulo"> Nuestra selección de paquetes </h2>
+      <section class="container">
+          <div class="card">
+              <h3 class="card-sub"> Paquetes a Disney </h3>
+              <img class="img-fluid" src="../assets/disney-1200.webp" alt=" disney ">
+              <p> Sumérgete en aguas cristalinas y arena dorada en nuestras playas exóticas. Ya sea que estés buscando relajarte bajo el sol o explorar la vida marina,
+                   tenemos el destino perfecto para ti. Disfruta de actividades acuáticas emocionantes, deliciosa gastronomía local y alojamientos de primera clase. 
+                   ¡Escapa a un paraíso tropical hoy mismo!</p>
+           </div>
+           <div class="card">
+              <h3 class="card-sub"> Paquetes a Cancún </h3>
+              <img class="img-fluid" src="../assets/cancun-1200.webp" alt=" cartel cancun">
+              <p> ¿Eres amante de la naturaleza y la aventura? Descubre emocionantes senderos, majestuosas montañas y paisajes que te dejarán sin aliento. Explora parques nacionales,
+                   realiza caminatas épicas y captura vistas panorámicas que te conectarán con el mundo natural. Tu próxima gran aventura te espera en lo más profundo de la naturaleza.</p>
+           </div>       
+           <div class="card">
+              <h3 class="card-sub"> Paquetes a Colombia </h3>
+              <img class="img-fluid" src="../assets/cartagena-1200.jpg" alt=" cartagena-colombia ">
+              <p> Celebra el amor en destinos románticos hechos para parejas. Desde encantadoras calles empedradas hasta cenas bajo las estrellas,
+                   nuestras ofertas de escapadas románticas te brindarán momentos especiales con esa persona especial. Vive experiencias inolvidables mientras
+                    creas recuerdos que perdurarán toda la vida. ¡Reaviva la chispa con una escapada romántica!</p>
+           </div>
+      </section>
+  
+  </main>
 
-    <footer>
-      <div class="container-fluid">
-        <div class="row p-5 text-black">
-          <div class="col">
-            <p class="h2"> Ahítu! </p>
+  <footer>
+    <div class="container-fluid">
+      <div class="row p-5 text-black">
+        <div class="col">
+          <p class="h2"> Ahítu! </p>
+        </div>
+        <div class="col">
+          <p class="h4 mb-3"> Links </p>
+          <div class="mb-2">
+            <a class="text-secondary text-decoration-none" href="#">Vuelos</a>
           </div>
-          <div class="col">
-            <p class="h4 mb-3"> Links </p>
-            <div class="mb-2">
-              <a class="text-secondary text-decoration-none" href="#">Vuelos</a>
-            </div>
-            <div class="mb-2">
-              <a class="text-secondary text-decoration-none" href="#">Alojamientos</a>
-            </div>
-            <div class="mb-2">
-              <a class="text-secondary text-decoration-none" href="#">Paquetes</a>
-            </div>
-            <div class="mb-2">
-              <a class="text-secondary text-decoration-none" href="#">Actividades</a>
-            </div>
-            <div class="mb-2">
-              <a class="text-secondary text-decoration-none" href="#">Autos</a>
-            </div>
+          <div class="mb-2">
+            <a class="text-secondary text-decoration-none" href="#">Alojamientos</a>
           </div>
-          <div class="col">
-            <p class="h4 mb-3"> Redes </p>
-            <div class="mb-2">
-              <a class="text-secondary text-decoration-none" href="https://www.despegar.com.ar/"> Despegar</a>
-            </div>
-            <div class="mb-2">
-              <a class="text-secondary text-decoration-none" href="https://www.booking.com/"> Booking </a>
-            </div>
+          <div class="mb-2">
+            <a class="text-secondary text-decoration-none" href="#">Paquetes</a>
           </div>
-          <div class="col-xs-12 pt-5">
-            <p class="text-center"> &copy;2023 Agencia de Viajes. Todos los derechos reservados.</p>
+          <div class="mb-2">
+            <a class="text-secondary text-decoration-none" href="#">Actividades</a>
+          </div>
+          <div class="mb-2">
+            <a class="text-secondary text-decoration-none" href="#">Autos</a>
+          </div>
+        </div>
+        <div class="col">
+          <p class="h4 mb-3"> Redes </p>
+          <div class="mb-2">
+            <a class="text-secondary text-decoration-none" href="https://www.despegar.com.ar/"> Despegar</a>
+          </div>
+          <div class="mb-2">
+            <a class="text-secondary text-decoration-none" href="https://www.booking.com/"> Booking </a>
+          </div>
+        </div>
+        <div class="col-xs-12 pt-5">
+          <p class="text-center"> &copy;2023 Agencia de Viajes. Todos los derechos reservados.</p>
 
-          </div>
         </div>
       </div>
-    </footer>
-    
-    <!-- scrip bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    </div>
+  </footer>
+  
+  <!-- scrip bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 
 </body>
 </html>
