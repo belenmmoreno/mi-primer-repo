@@ -1,0 +1,30 @@
+.form{
+    background-color: $color-secundary;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    display: flex;
+
+    h2{
+        font-size: 1.5em;
+        padding: 6px;
+    }
+    
+    &-texto{
+        font-size: 1.50em;
+        text-align: left;
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+    &-boton{
+        border: none;
+        border-radius: 3px;
+        background-color: $black;
+        color: $color-tertiary;
+
+    }
+}
+.field{
+    border: solid 1px $color-field;
+    border-radius: 3px;
+}
