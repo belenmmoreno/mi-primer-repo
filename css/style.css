@@ -16,12 +16,12 @@
 
 
 /* Menu navegación (Header)*/
-.menu-navegacion{
+.header{
     justify-content: center;
     align-items: center;
     background-color: #BBBAC6; 
 }
-.menu-navegacion h1{
+.header h1{
     font-size: 1.90em;
     text-align: center;
     padding-top: 33px;
