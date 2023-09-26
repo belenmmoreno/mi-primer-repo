@@ -1,9 +1,5 @@
 .h2__subtitulo{
-    font-size: 1.5em;
-    text-align: center;
-    padding-left: 20px;
-    padding-top: 28px;
-    padding-bottom: 20px;
+    @include h2-subtitulo
 
 }
 .container{
@@ -13,6 +9,7 @@
     margin: 20px;
     transition: all 0.3s;
     box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    
 
     &-sub{
         font-size: 1.2em ;

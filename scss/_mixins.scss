@@ -10,3 +10,20 @@
     background-color: $black;
     color: $color-tertiary;
 }
+@mixin h1{
+    font-size: 1.90em;
+    text-align: center;
+    padding-top: 33px;
+}
+@mixin header{
+    background-color: $color-secundary;
+    justify-content: center;
+    align-items: center;
+}
+@mixin h2-subtitulo{
+    font-size: 1.5em;
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 28px;
+    padding-bottom: 20px;
+}

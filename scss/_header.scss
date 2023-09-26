@@ -1,12 +1,8 @@
 .header{
-    background-color: $color-secundary;
-    justify-content: center;
-    align-items: center;
+    @include header;
 
     h1{
-        font-size: 1.90em;
-        text-align: center;
-        padding-top: 33px;
+        @include h1;
     }
 }
 .border-class{
