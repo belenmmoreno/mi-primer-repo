@@ -32,7 +32,7 @@
         <div>
             <nav class="navbar navbar-expand-lg nav-color">
                 <div class="container-fluid">
-                  <a class="navbar-brand navbar-fontsize" href="#">Ahítu!</a>
+                  <a class="navbar-brand navbar-fontsize animate__animated animate__swing" href="#">Ahítu!</a>
                   <button class="navbar-toggler border-class" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
@@ -89,24 +89,38 @@
     <main>
       <h2 class="h2__subtitulo"> Destinos tendencia </h2>
         <section class="container">
-            <div class="card">
-                <h3 class="card-sub"> Roma </h3>
-                <img class="img-fluid" src="../assets/roma-1200.jpg" alt="coliseo">
-                <p class="text-center">¡Descubre la eterna belleza de Roma! Sumérgete en la historia antigua mientras exploras el Coliseo, el Foro Romano y el Vaticano. Disfruta de la deliciosa cocina italiana y pasea por las encantadoras calles empedradas.
-                  ¡Reserva tu viaje a la Ciudad Eterna hoy mismo y crea recuerdos inolvidables!</p>
-             </div>
-             <div class="card">
-                <h3 class="card-sub"> París </h3>
-                <img class="img-fluid" src="../assets/torre-eiffel-1200.jpg" alt="torre eiffel">
-                <p class="text-center"> La Ciudad del Amor te espera con los brazos abiertos. Explora la icónica Torre Eiffel, pasea por los elegantes Campos Elíseos y maravíllate con el arte en el Louvre.
-                  Saborea croissants recién horneados y auténticos macarons. ¡Vive un romance inolvidable en París!</p>
-             </div>       
-             <div class="card">
-                <h3 class="card-sub"> Barcelona </h3>
-                <img class="img-fluid" src="../assets/barcelona-1200.jpg" alt="sagrada familia">
-                <p class="text-center">Sumérgete en la vibrante energía de Barcelona. Visita la Sagrada Familia de Gaudí, déjate llevar por las playas doradas y explora el Barrio Gótico lleno de encanto histórico.
-                  Disfruta de tapas y vinos en los mercados locales. ¡No te pierdas esta experiencia única en Barcelona! </p>
-             </div>
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="../assets/roma-1200.jpg" class="card-img-top" alt="coliseo">
+                <div class="card-body">
+                  <h5 class="card-title"> Roma </h5>
+                  <p class="card-text"> ¡Descubre la eterna belleza de Roma! Sumérgete en la historia antigua mientras exploras el Coliseo, el Foro Romano y el Vaticano. Disfruta de la deliciosa cocina italiana y pasea por las encantadoras calles empedradas.
+                    ¡Reserva tu viaje a la Ciudad Eterna hoy mismo y crea recuerdos inolvidables!</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="../assets/torre-eiffel-1200.jpg" class="card-img-top" alt="torre eiffel">
+                <div class="card-body">
+                  <h5 class="card-title"> París </h5>
+                  <p class="card-text">  La Ciudad del Amor te espera con los brazos abiertos. Explora la icónica Torre Eiffel, pasea por los elegantes Campos Elíseos y maravíllate con el arte en el Louvre.
+                    Saborea croissants recién horneados y auténticos macarons. ¡Vive un romance inolvidable en París!</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="../assets/barcelona-1200.jpg" class="card-img-top" alt="sagrada familia">
+                <div class="card-body">
+                  <h5 class="card-title"> Barcelona </h5>
+                  <p class="card-text">Sumérgete en la vibrante energía de Barcelona. Visita la Sagrada Familia de Gaudí, déjate llevar por las playas doradas y explora el Barrio Gótico lleno de encanto histórico.
+                    Disfruta de tapas y vinos en los mercados locales. ¡No te pierdas esta experiencia única en Barcelona!</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
       </main>
 
